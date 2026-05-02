@@ -1,0 +1,74 @@
+{
+  "top": [
+    {
+      "id": "18ef25cd-2a17-4137-9fec-68dd8e199551",
+      "type": "Placement",
+      "message": "Berkshire Hathaway Inc. hiring",
+      "timestamp": "2026-05-02 04:54:15",
+      "score": 278391.412
+    },
+    {
+      "id": "be84072e-a2d2-4278-8176-ec1c17323621",
+      "type": "Placement",
+      "message": "Marriott International Inc. hiring",
+      "timestamp": "2026-05-01 21:53:51",
+      "score": 253167.412
+    },
+    {
+      "id": "f9662b2a-4260-4fe5-a576-b84a99c348ef",
+      "type": "Placement",
+      "message": "Marriott International Inc. hiring",
+      "timestamp": "2026-05-01 19:52:57",
+      "score": 245913.412
+    },
+    {
+      "id": "3308a252-c35f-47d6-afe0-fd22c231cae9",
+      "type": "Placement",
+      "message": "Amazon.com Inc. hiring",
+      "timestamp": "2026-05-01 18:54:21",
+      "score": 242397.412
+    },
+    {
+      "id": "88307a4d-0c74-44a0-b716-9e14f32ad9db",
+      "type": "Placement",
+      "message": "Broadcom Inc. hiring",
+      "timestamp": "2026-05-01 16:22:45",
+      "score": 233301.412
+    },
+    {
+      "id": "9fb7761b-2b76-468a-b1cf-a4a522654926",
+      "type": "Placement",
+      "message": "Booking Holdings Inc. hiring",
+      "timestamp": "2026-05-01 14:53:09",
+      "score": 227925.412
+    },
+    {
+      "id": "12134310-cc20-4ef0-8799-0faaa5bc23ed",
+      "type": "Placement",
+      "message": "Amgen Inc. hiring",
+      "timestamp": "2026-05-01 13:23:33",
+      "score": 222549.412
+    },
+    {
+      "id": "52ad3d6e-c9e3-435e-85ac-6f8ad9fb3cb1",
+      "type": "Result",
+      "message": "mid-sem",
+      "timestamp": "2026-05-02 03:53:27",
+      "score": 174743.412
+    },
+    {
+      "id": "d1105752-7429-4ec0-9625-eafad961f467",
+      "type": "Result",
+      "message": "end-sem",
+      "timestamp": "2026-05-02 02:52:51",
+      "score": 171107.412
+    },
+    {
+      "id": "eaf34fb2-2388-4eb9-8184-8c0a305cd7fc",
+      "type": "Result",
+      "message": "end-sem",
+      "timestamp": "2026-05-02 01:53:15",
+      "score": 167531.412
+    }
+  ]
+}
