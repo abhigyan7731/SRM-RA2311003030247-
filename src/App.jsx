@@ -4,6 +4,7 @@ import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
 import Log from './utils/logging'
+import Notifications from './Notifications'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -119,6 +120,11 @@ function App() {
       </section>
 
       <div className="ticks"></div>
+
+      <section id="notifications-area">
+        <Notifications />
+      </section>
+
       <section id="spacer"></section>
     </>
   )
