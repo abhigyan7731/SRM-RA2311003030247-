@@ -1,0 +1,48 @@
+{
+  "info": {
+    "name": "Notification API",
+    "_postman_id": "notif-collection",
+    "description": "Register, auth, and notifications requests",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Register",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "Content-Type", "value": "application/json" }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"email\": \"ag8998@srmist.edu.in\",\n  \"name\": \"ABHIGYAN KUMAR GUPTA\",\n  \"mobileNo\": \"8987209472\",\n  \"githubUsername\": \"abhigyan7731\",\n  \"rollNo\": \"RA2311003030247\",\n  \"accessCode\": \"QkbpxH\"\n}"
+        },
+        "url": "http://20.207.122.201/evaluation-service/register"
+      }
+    },
+    {
+      "name": "Auth",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "Content-Type", "value": "application/json" }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"email\": \"ag8998@srmist.edu.in\",\n  \"name\": \"ABHIGYAN KUMAR GUPTA\",\n  \"mobileNo\": \"8987209472\",\n  \"githubUsername\": \"abhigyan7731\",\n  \"rollNo\": \"RA2311003030247\",\n  \"accessCode\": \"QkbpxH\",\n  \"clientID\": \"<clientID>\",\n  \"clientSecret\": \"<clientSecret>\"\n}"
+        },
+        "url": "http://20.207.122.201/evaluation-service/auth"
+      }
+    },
+    {
+      "name": "Notifications",
+      "request": {
+        "method": "GET",
+        "header": [
+          { "key": "Authorization", "value": "Bearer {{eval_token}}" }
+        ],
+        "url": "http://20.207.122.201/evaluation-service/notifications"
+      }
+    }
+  ]
+}
