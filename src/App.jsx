@@ -5,9 +5,11 @@ import heroImg from './assets/hero.png'
 import './App.css'
 import Log from './utils/logging'
 import Notifications from './Notifications'
+import FullNotifications from './FullNotifications'
 
 function App() {
   const [count, setCount] = useState(0)
+  const [showFull, setShowFull] = useState(false)
 
   return (
     <>
@@ -123,6 +125,10 @@ function App() {
 
       <section id="notifications-area">
         <Notifications />
+        <div style={{marginTop:12}}>
+          <button onClick={()=>setShowFull(s=>!s)}>{showFull? 'Hide full list':'Show full list'}</button>
+        </div>
+        {showFull && <FullNotifications />}
       </section>
 
       <section id="spacer"></section>
